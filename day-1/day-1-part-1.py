@@ -1,6 +1,6 @@
 counter = 0
 
-with open('input.txt') as f:
+with open('../src/main/scala/Day1/input.txt') as f:
     lines = f.readlines()
     prev = -1
     for line in lines:

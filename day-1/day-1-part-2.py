@@ -1,6 +1,6 @@
 counter = 0
 
-with open('input.txt') as f:
+with open('../src/main/scala/Day1/input.txt') as f:
     lines = [int(line.rstrip()) for line in f.readlines()]
     curr_sum = lines[:3]
     for line in lines[3:]:
