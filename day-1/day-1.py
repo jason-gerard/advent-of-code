@@ -1,13 +1,16 @@
 counter = 0
 
 with open('input.txt') as f:
-    lines = f.readlines()
-    prev = -1
-    for line in lines:
-        curr = int(line.rstrip())
-        if prev != -1 and curr > prev:
-            counter += 1
+    lines = [int(line.rstrip()) for line in f.readlines()]
+    curr_sum = lines[:3]
+    for line in lines[3:]:
+        prev_sum = sum(curr_sum)
 
-        prev = curr
+        # new sum
+        curr_sum.pop(0)
+        curr_sum.append(line)
+
+        if sum(curr_sum) > prev_sum:
+            counter += 1
 
 print(counter)
