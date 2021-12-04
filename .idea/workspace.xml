@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f9c46ac7-e50a-4723-a980-b365b3507d88" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.1.0/classes/Day2/Day2Part2$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.1.0/classes/Day2/Day2Part2$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.1.0/classes/Day2/Day2Part2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.1.0/classes/Day2/Day2Part2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.1.0/classes/Day2/Day2Part2.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.1.0/classes/Day2/Day2Part2.tasty" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +57,7 @@
       <recent name="Day1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Day2Part2">
+  <component name="RunManager" selected="Application.Day3Part1">
     <configuration name="Day1Part1" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Day1.Day1Part1" />
       <module name="advent-of-code" />
@@ -107,8 +110,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day3Part1" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Day3.Day3Part1" />
+      <module name="advent-of-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Day3Part1" />
         <item itemvalue="Application.Day2Part2" />
         <item itemvalue="Application.Day2Part1" />
         <item itemvalue="Application.Day1Part2" />
@@ -128,6 +145,8 @@
       <option name="presentableId" value="Default" />
       <updated>1638483409134</updated>
       <workItem from="1638483411440" duration="8958000" />
+      <workItem from="1638588581459" duration="821000" />
+      <workItem from="1638589706804" duration="4610000" />
     </task>
     <servers />
   </component>
@@ -144,5 +163,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
