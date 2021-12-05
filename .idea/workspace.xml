@@ -42,7 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -146,6 +146,8 @@
       <workItem from="1638588581459" duration="821000" />
       <workItem from="1638589706804" duration="4610000" />
       <workItem from="1638660519389" duration="5844000" />
+      <workItem from="1638667626815" duration="645000" />
+      <workItem from="1638684818195" duration="115000" />
     </task>
     <servers />
   </component>
