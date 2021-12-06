@@ -1,6 +1,6 @@
 package Day5
 
-object Day5Part1 extends App {
+object Day5Part2 extends App {
     case class Point(x: Int, y: Int)
 
     val source = io.Source.fromFile("./src/main/scala/Day5/input.txt")
@@ -24,7 +24,13 @@ object Day5Part1 extends App {
                 val range = ((p1.x min p2.x) to (p1.x max p2.x)).toList
                 range.map(x => Point(x, p1.y))
             }
-            case (_, _) => List()
+            case (p1, p2) => {
+                val m = (p2.y - p1.y) / (p2.x - p1.x)
+                val b = p1.y - (m * p1.x)
+
+                val range = ((p1.x min p2.x) to (p1.x max p2.x)).toList
+                range.map(x => Point(x, (m * x) + b))
+            }
         }
         .groupBy(identity)
         .transform((_, v) => v.size)
