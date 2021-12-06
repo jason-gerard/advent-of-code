@@ -42,7 +42,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -148,6 +149,7 @@
       <workItem from="1638660519389" duration="5844000" />
       <workItem from="1638667626815" duration="645000" />
       <workItem from="1638684818195" duration="115000" />
+      <workItem from="1638754875146" duration="2470000" />
     </task>
     <servers />
   </component>
