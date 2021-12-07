@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f9c46ac7-e50a-4723-a980-b365b3507d88" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Day5/Day5Part1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Day5/Day5Part1.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,38 +58,13 @@
       <recent name="$PROJECT_DIR$/src/main/scala/Day1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Day6" />
       <recent name="Day3" />
       <recent name="Day2" />
       <recent name="Day1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Day5Part2">
-    <configuration name="Day2Part2" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Day2.Day2Part2" />
-      <module name="advent-of-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day3Part1" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Day3.Day3Part1" />
-      <module name="advent-of-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Day6Part2">
     <configuration name="Day3Part2" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Day3.Day3Part2" />
       <module name="advent-of-code" />
@@ -130,13 +104,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day6Part1" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Day6.Day6Part1" />
+      <module name="advent-of-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day6Part2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Day6.Day6Part2" />
+      <module name="advent-of-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Day6Part2" />
+        <item itemvalue="Application.Day6Part1" />
         <item itemvalue="Application.Day5Part2" />
         <item itemvalue="Application.Day5Part1" />
         <item itemvalue="Application.Day3Part2" />
-        <item itemvalue="Application.Day3Part1" />
-        <item itemvalue="Application.Day2Part2" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +159,8 @@
       <workItem from="1638684818195" duration="115000" />
       <workItem from="1638754875146" duration="3199000" />
       <workItem from="1638763736367" duration="106000" />
-      <workItem from="1638763861202" duration="6200000" />
+      <workItem from="1638763861202" duration="6496000" />
+      <workItem from="1638856363346" duration="5217000" />
     </task>
     <servers />
   </component>
