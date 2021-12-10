@@ -1,6 +1,6 @@
 package Day9
 
-object Day9Part1 extends App {
+object Day9Part2 extends App {
     val source = io.Source.fromFile("./src/main/scala/Day9/input.txt")
     val lines = try source.getLines().toList finally source.close()
 
