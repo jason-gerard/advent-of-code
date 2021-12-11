@@ -3,6 +3,21 @@ package Day10
 import scala.annotation.tailrec
 
 object Day10Part1 extends App {
+    val openingChars = Set('(', '[', '{', '<')
+    val closingChars = Set(')', ']', '}', '>')
+    val mapClosingToOpeningChars = Map(
+        ')' -> '(',
+        ']' -> '[',
+        '}' -> '{',
+        '>' -> '<',
+    )
+    val mapCharsToPoints = Map(
+        ')' -> 3,
+        ']' -> 57,
+        '}' -> 1197,
+        '>' -> 25137,
+    )
+
     @tailrec
     def findFirstIncorrectChar(stack: List[Char])(chars: List[Char]): Option[Char] =
         chars.headOption match {
@@ -31,18 +46,3 @@ object Day10Part1 extends App {
         .sum
     println(points)
 }
-
-val openingChars = Set('(', '[', '{', '<')
-val closingChars = Set(')', ']', '}', '>')
-val mapClosingToOpeningChars = Map(
-    ')' -> '(',
-    ']' -> '[',
-    '}' -> '{',
-    '>' -> '<',
-)
-val mapCharsToPoints = Map(
-    ')' -> 3,
-    ']' -> 57,
-    '}' -> 1197,
-    '>' -> 25137,
-)
