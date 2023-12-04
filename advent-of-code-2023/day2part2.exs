@@ -1,4 +1,4 @@
-{:ok, content} = File.read("inputs/day2part2.txt")
+{:ok, content} = File.read("inputs/day2.txt")
 lines = content |> String.split("\n", trim: true)
 
 games = lines |> Enum.map(fn line -> 

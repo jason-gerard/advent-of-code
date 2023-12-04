@@ -1,4 +1,4 @@
-{:ok, content} = File.read("inputs/day1part2.txt")
+{:ok, content} = File.read("inputs/day1.txt")
 lines = content |> String.split("\n", trim: true)
 
 string_to_number = %{

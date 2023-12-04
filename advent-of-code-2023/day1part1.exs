@@ -1,4 +1,4 @@
-{:ok, content} = File.read("inputs/day1part1.txt")
+{:ok, content} = File.read("inputs/day1.txt")
 lines = content |> String.split("\n", trim: true)
 
 count = lines 
